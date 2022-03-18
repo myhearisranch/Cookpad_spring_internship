@@ -1,5 +1,7 @@
-require_relative "./work4.rb"
 
+$abcdefghijklmnopqrstuvwxyz = <<EOS
+
+require_relative "./work4.rb"
 
 #ダイイングメッセージ発見!?
 
@@ -15,3 +17,5 @@ eval(%w(
 
     s       t u v w x y z )
 )*"")
+
+EOS
